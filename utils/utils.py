@@ -1,6 +1,6 @@
-import matplotlib.pyplot             as plt
+import matplotlib.pyplot as plt
 import numpy as np
-from sklearn                         import metrics
+from sklearn import metrics
 
 
 def plot_history(history):
@@ -30,10 +30,10 @@ def evaluate_model(testY, pred):
 
     CM = metrics.confusion_matrix(testY, pred)
     
-    Accuracy             = metrics.accuracy_score(testY, pred)
-    F1                   = metrics.f1_score(testY, pred)
+    Accuracy = metrics.accuracy_score(testY, pred)
+    F1 = metrics.f1_score(testY, pred)
     fpr, tpr, thresholds = metrics.roc_curve(testY, pred)
-    AUC                  = metrics.auc(fpr, tpr)
+    AUC = metrics.auc(fpr, tpr)
 
     # Print results
     print('Accuracy = %.2f%%' % (100*Accuracy))
