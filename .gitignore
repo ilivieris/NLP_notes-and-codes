@@ -7,6 +7,9 @@ utils/__pycache__/
 checkpoints/
 checkpoints/*
 
+Custom_NLP_projects/
+Custom_NLP_projects/*
+
 Data/
 Data/*
 
