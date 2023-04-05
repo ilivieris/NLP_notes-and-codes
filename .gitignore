@@ -10,8 +10,8 @@ checkpoints/*
 Custom_NLP_projects/
 Custom_NLP_projects/*
 
-Data/
-Data/*
+Advanced sentiment analysis/Data/
+Advanced sentiment analysis/Data/*
 
 # C extensions
 *.so
